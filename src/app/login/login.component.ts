@@ -33,7 +33,7 @@ result: any;
             sessionStorage.setItem('role',this.result.role);
             this.router.navigate(['']);
           } else {
-            this.toastr.error('Please contact Admin', 'InActive User');
+            this.toastr.error('Please contact Admin', 'In Active User');
           }
         } else {
           this.toastr.error('Invalid credentials');
