@@ -50,7 +50,7 @@ GetAllCustomer()
    return this.http.get('http://localhost:3000/customer');
 }
 
-Cetaccessbyrole(role:any, menu:any)
+Getaccessbyrole(role:any, menu:any)
 {
   return this.http.get('http://localhost:3000/roleaccess?role='+role+'@menu='+menu);
 }
