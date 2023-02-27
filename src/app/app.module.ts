@@ -13,6 +13,9 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { UpdatepopupComponent } from './updatepopup/updatepopup.component';
 import { UserlistingComponent } from './userlisting/userlisting.component';
+import { CustomerComponent } from './customer/customer.component';
+import { ModelComponent } from './model/model.component';
+
 
 
 @NgModule({
@@ -22,7 +25,9 @@ import { UserlistingComponent } from './userlisting/userlisting.component';
     LoginComponent,
     HomeComponent,
     UpdatepopupComponent,
-    UserlistingComponent
+    UserlistingComponent,
+    CustomerComponent,
+    ModelComponent
   ],
   imports: [
     BrowserModule,
